@@ -1,1 +1,1 @@
-# allocine
+Back office: /?admin
