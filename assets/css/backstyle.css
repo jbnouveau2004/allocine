@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #B9AE1D;
+}
+
+#division{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+label{
+    width: 150px;
+}
+
+table{
+    text-align: left;
+}
+
+th{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+tr:nth-child(2n){
+    background-color: #B9AE1D;
+}
+
+#ajouter, #update{
+    margin: 20px 20px 0px 20px;
+}
+
+#annuler{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.header, .footer{
+    background-color: #dbdb06;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    min-height: 100px;
+    padding-bottom: 20px;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.bouton{
+    font-size: 2rem;
+    box-shadow: 0 0 5px 5px #999018;
+    background-color: #E1E132;
+    margin: 20px;
+    border: 0;
+}
+
+.bouton:hover, td input:hover, .header input:hover{
+    background-color: #999018;
+    box-shadow: 0 0 5px 5px #E1E132;
+}
+
+td input, .header input{
+    box-shadow: 0 0 5px 5px #999018;
+    background-color: #E1E132;
+}
+
+.container input:not(.bouton), textarea, select{
+    background-color: #999018;
+}
+
+.container input:focus, textarea:focus{
+    background-color: #E1E132;
+}
+
+#post_connexion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

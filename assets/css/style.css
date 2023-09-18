@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #B9AE1D;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dbdb06;
+}
+
+.lien{
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.lien:hover{
+    background-color: #CBBF20;
+}
+
+.droite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dbdb06;
+    height: 100px;
+    margin-top: 200px;
+}
+
+.footer img{
+    width: 200px;
+    height: auto;
+}
+
+#canvas1, #canvas2{
+    border: 1px solid black;
+}
+
+ul{
+    border: 1px solid black;
+    width: 128px;
+    margin-top: -0px;
+    
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: -37px;
+}
+
+li:hover{
+    color: white;
+    background-color: black;
+}
+
+#recherche{
+    margin-right: 10px;
+}
+
+button{
+    font-size: 2rem;
+    box-shadow: 0 0 5px 5px #999018;
+    background-color: #E1E132;
+    margin: 20px;
+    border: 0;
+}
+
+button:hover{
+    background-color: #999018;
+    box-shadow: 0 0 5px 5px #E1E132;
+}
+
+input{
+    font-size: 2rem;
+    background-color: #999018;
+}
+
+input:focus{
+    background-color: #E1E132;
+}
+
+h3{
+    margin-top: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+#menu{
+    /* position: absolute;
+    top: 60px; */
+    margin-top: -20px;
+}
+
+.container p{
+    font-size: 1.5rem;
+    padding: 30px;
+}
